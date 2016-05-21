@@ -7,11 +7,12 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pintrest+"
+title                    : "Boner for Food"
 title_separator          : "-"
 name                     : "Ryan Kroenung"
-description              : "A blog focused on learning and improving pinterest recipes"
-url                      : "http://natedaug.github.io/minimal-mistakes/"
+description              : "A blog focused on learning and improving common recipes"
+url                      : "http://natedaug.github.io/food-boner/"
+#url                      : "http://127.0.0.1:4000/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -63,7 +64,7 @@ google_ad_slot           :
 author:
   name             : "Ryan Kroenung"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : '"I cook with wine, sometimes I even add it to the food." -WC Fields'
   location         : "St. Louis, MO"
   email            :
   uri              :
@@ -204,3 +205,24 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+#Adds default layout to posts
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
