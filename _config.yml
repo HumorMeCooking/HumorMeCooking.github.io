@@ -11,7 +11,7 @@ title                    : "Boner for Food"
 title_separator          : "-"
 name                     : "Ryan Kroenung"
 description              : "A blog focused on learning and improving common recipes"
-url                      : "http://natedaug.github.io/food-boner/"
+url                      : "http://natedaug.github.io/boner-for-food"
 #url                      : "http://127.0.0.1:4000/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
