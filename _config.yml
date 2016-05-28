@@ -11,7 +11,7 @@ title                    : "Humor me, a cook blog"
 title_separator          : "-"
 name                     : "Ryan Kroenung"
 description              : "A blog focused on learning and improving common recipes"
-url                      : "http://humormecooking.github.io/"
+url                      : "http://humormecooking.github.io"
 #url                      : "http://127.0.0.1:4000/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
